@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+    .title {
+        grid-column: 1 / 3;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .wizara {
+        margin: auto;
+    }
+}
+
+.wizara {
+    margin-bottom: 1rem;
+}
+
+.annonce {
+    color: gray;
+    margin-top: 2rem;
+}

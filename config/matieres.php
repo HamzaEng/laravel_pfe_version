@@ -1,0 +1,82 @@
+<?php
+// LES COFFECIENTS DE CHAQUE FILIERE 
+
+$commun =  array(
+  'ARAB' => 10,
+  'FRAN' => 10,
+  'ENGL' => 10,
+  'COMM' => 10
+);
+
+$SRI = array(
+  'SYST' => 30,
+  'RESE' => 30,
+  'DEVE' => 15,
+  'LINU' => 20,
+  'MATH' => 15
+);
+ 
+$SRI1 = array(
+  'ARCH' => 20,
+  'ECON' => 10
+);
+
+$MT = array(
+  'ESPG' => 10,
+  'IFGT' => 10,
+  'DECG' => 30
+);
+
+$MT1 = array(
+  'ORGT' => 30,
+  'MRKF' => 25,
+  'OGCG' => 40,
+  'MATH' => 10
+);
+
+$MT2 = array(
+  'DECT' => 30,
+  'SGRH' => 20,
+  'MKCT' => 30,
+  'CDG' => 30
+);
+
+$MCW = array(
+  'MATH'=>20,
+  'IFCM'=> 30,
+  'ANPR'=> 30,
+  'DEVM'=>30,
+  'SIER'=> 30
+);
+
+$MCW1 = array( 
+  'ECON'=>10
+);
+return [
+    
+'commun' => $commun,
+  
+  'SRI' => $SRI,
+
+  'SRI1' => $SRI1,
+  
+  'MT' => $MT,
+  
+  'MT1' => $MT1,
+  
+  'MT2' => $MT2,
+  
+  'MCW' => $MCW,
+  
+  'MCW1' => $MCW1,
+  
+  
+  'Sri1Coffs' => array_merge($commun, $SRI, $SRI1),
+  'Sri2Coffs' => array_merge($commun, $SRI),
+  'Mt1Coffs' => array_merge($commun, $MT, $MT1),
+  'Mt2Coffs' => array_merge($commun, $MT,$MT2),
+  'Mcw1Coffs' => array_merge($commun, $MCW, $MCW1),
+  'Mcw2Coffs' => array_merge($commun, $MCW),
+]
+
+?> 
