@@ -1,0 +1,23 @@
+tree a86da495d8b1fc06a5be94bdec3fcfc135144d42
+
+.editorconfig
+.env.example
+.gitattributes
+.gitignore
+README.md
+app/
+artisan
+bootstrap/
+composer.json
+composer.lock
+config/
+database/
+package-lock.json
+package.json
+phpunit.xml
+public/
+resources/
+routes/
+storage/
+tests/
+vite.config.js
