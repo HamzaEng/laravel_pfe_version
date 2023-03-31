@@ -9,6 +9,6 @@
 
 # pfe laravel version  
 <h3>configuration : </h3>
-1.configure database in .env file to pfe 
-2.migrate tables 
-3.using phpmyadmin create admin account in users table, set isAdmin column to true to allows you to login with this account then add students , teachers and a more thingns you can do .
+<li>1.configure database in .env file to pfe </li>
+<li>2.migrate tables</li> 
+<li>3.using phpmyadmin create admin account in users table, set isAdmin column to true to allows you to login with this account then add students , teachers and a more thingns you can do.</li>
